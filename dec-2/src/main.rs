@@ -36,7 +36,6 @@ fn part2(file: &str) {
         let mut added: u8 = 0;
         for size in collection.iter() {
             if size < biggest {
-                println!("line is {}, biggest is {}, size is {}", line, biggest, size);
                 added += 1;
                 length += 2 * size;
             }
